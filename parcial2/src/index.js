@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {IntlProvider} from 'react-intl';
-import localeEsMessages from "./locales/en";
+import localeEsMessages from "./locales/es";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

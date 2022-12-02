@@ -1,7 +1,6 @@
 import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from "react-bootstrap/Button";
-import DetalleBanda from './DetalleBanda';
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 
@@ -81,9 +80,6 @@ function ListarBandas() {
                 </tbody>
             </table>
             <>{bandaAntigua()}</>
-            <Row>
-                {bands.map(bandx => <Col><DetalleBanda bandx={bandx} key={bandx.id} /></Col>)}
-            </Row>
         </Row>
     )
 }

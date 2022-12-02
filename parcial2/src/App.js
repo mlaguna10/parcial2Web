@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <nav class="navbar navbar-light bg-light">
         <FormattedMessage id="bandas musicales" />
-        <span class="navbar-brand mb-0 h1">Bandas Musicales</span>
       </nav>
       <ListarBandas></ListarBandas>
     </div>
