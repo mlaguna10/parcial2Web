@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {IntlProvider} from 'react-intl';
+import localeEsMessages from "./locales/en";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <IntlProvider locale="es-ES" messages= {localeEsMessages}>
     <App />
+    </IntlProvider>
   </React.StrictMode>
 );
 
